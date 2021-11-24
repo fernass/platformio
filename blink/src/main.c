@@ -9,5 +9,7 @@
 #define BITMASK_BTN (1ULL<<GPIO_BTN)
 #define ESP_INTERRUPT_FLAG 0
 
+static void btn_handler(void* args);
+
 
 void app_main() {}
